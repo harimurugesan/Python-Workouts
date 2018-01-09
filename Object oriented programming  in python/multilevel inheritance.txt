@@ -1,0 +1,20 @@
+class SuperClass:
+    def __init__(self):
+
+        self.a = 5
+        self.b = 10
+
+
+class BaseClass1(SuperClass):
+    def base1(self):
+        print(self.a * self.b)
+
+
+class BaseClass2(SuperClass):
+    def base2(self):
+        print(self.a - self.b)
+
+b1 = BaseClass1()
+b1.base1()
+b2 = BaseClass2()
+b2.base2()

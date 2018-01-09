@@ -1,0 +1,6 @@
+a = input().split()
+b = input().split()
+print((len(b) - 1) - b[::-1].index(str(int(a[1]))))
+print(len(b))
+print(b[::-1])
+print(b[::-1].index(str(int(a[1]))))

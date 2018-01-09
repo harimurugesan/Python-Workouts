@@ -1,0 +1,5 @@
+a = input()
+b = raw_input().split()
+b = map(int,b)
+h = tuple(b)
+print hash(h)

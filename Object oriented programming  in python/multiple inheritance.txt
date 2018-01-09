@@ -1,0 +1,17 @@
+class SuperClass1():
+    def super1(self):
+        print("method_super1 method called")
+
+
+class SuperClass2():
+    def super2(self):
+        print("method_super2 method called")
+
+
+class ChildClass(SuperClass1, SuperClass2):
+    def __init__(self):
+        print("child method")
+
+c = ChildClass()
+c.super1()
+c.super2()
